@@ -1,0 +1,492 @@
+.container {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  min-height: 3.75rem;
+  width: 90%;
+  padding-bottom: 0.75rem;
+  border-bottom: 0.0625rem solid #B4AEAE;
+  gap: 1rem;
+  padding: 2rem;
+}
+.container header img {
+  max-width: 15.313rem;
+  width: 50%;
+  max-height: 2.688rem;
+  margin-right: auto;
+}
+.container header .links {
+  display: flex;
+  flex-wrap: wrap;
+  white-space: nowrap;
+  max-height: 37.5rem;
+  gap: 1.25rem;
+}
+.container header .links nav {
+  display: flex;
+  align-items: center;
+  gap: 2.0625rem;
+  margin-right: auto;
+}
+.container header .links nav p {
+  color: var(--color-subtitle);
+}
+.container header .links nav p:hover {
+  color: var(--button-primary);
+}
+.container header .links .btn {
+  margin-left: auto;
+}
+.container header .links .btn button {
+  align-self: center;
+  width: 8.5rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  color: var(--color-primary);
+  background-color: var(--button-primary);
+}
+.container header .links .btn button:hover {
+  background-color: var(--button-primary-hover);
+}
+.container main .presentation_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  min-height: 3.75rem;
+  width: 90%;
+  padding-bottom: 0.75rem;
+  gap: 1rem;
+  padding: 2rem;
+}
+.container main .presentation_section .presentation_div h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: var(--color-title);
+}
+.container main .presentation_section .presentation_div p {
+  color: var(--color-title);
+}
+.container main .presentation_section .presentation_div .presentation_buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 22.5rem;
+  margin-top: 2.5rem;
+}
+.container main .presentation_section .presentation_div .presentation_buttons .donate_btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3.5rem;
+  width: 10rem;
+  border: none;
+  border-radius: 0.3125rem;
+  background-color: var(--button-primary);
+  color: var(--color-primary);
+}
+.container main .presentation_section .presentation_div .presentation_buttons .donate_btn:hover {
+  background-color: var(--button-primary-hover);
+}
+.container main .presentation_section .presentation_div .presentation_buttons .adquire_btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3.5rem;
+  width: 10rem;
+  border: 0.0625rem solid var(--button-secondary);
+  border-radius: 0.3125rem;
+  color: var(--button-secondary);
+  background-color: var(--color-primary);
+}
+.container main .presentation_section .presentation_div .presentation_buttons .adquire_btn:hover {
+  background-color: var(--color-secondary);
+}
+.container main .data_section {
+  background-color: var(--color-secondary);
+  height: 9.8rem;
+}
+.container main .data_section .data_list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 2.3rem;
+}
+.container main .data_section .data_list li h2 {
+  color: var(--button-primary);
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.container main .data_section .data_list li p {
+  color: var(--color-subtitle);
+}
+.container main .howtouse_section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 4.5rem;
+  gap: 3rem;
+  margin-bottom: 1.5rem;
+}
+.container main .howtouse_section .howtouse_steps {
+  font-weight: 700;
+}
+.container main .howtouse_section .howtouse_description {
+  color: var(--color-subtitle);
+}
+.container main .howtouse_section .howtouse_title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--color-title);
+}
+.container main .howtouse_section .howtouse_title h3 {
+  color: var(--color-title);
+}
+.container main .howtouse_section .howtouse_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 21.875rem;
+  padding: 2rem;
+  background-color: var(--color-secondary);
+  border-radius: 0.3125rem;
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_1 .howtouse_card_title_1 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_1 .howtouse_card_title_1 h3 {
+  color: var(--button-primary);
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_1 .howtouse_card_p_1 {
+  margin-bottom: 1rem;
+  color: var(--color-subtitle);
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_1 ol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_1 ol li {
+  display: flex;
+  height: 4.875rem;
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_1 ol li img {
+  width: 2rem;
+  height: 2rem;
+  padding-right: 0.5rem;
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 21.875rem;
+  padding: 2rem;
+  background-color: var(--color-secondary);
+  border-radius: 0.3125rem;
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_2 .howtouse_card_title_2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_2 .howtouse_card_title_2 h3 {
+  color: var(--button-secondary);
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_2 .howtouse_card_p_2 {
+  margin-bottom: 1rem;
+  color: var(--color-subtitle);
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_2 ol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_2 ol li {
+  display: flex;
+  height: 4.875rem;
+}
+.container main .howtouse_section .howtouse_cards .howtouse_card_2 ol li img {
+  width: 2rem;
+  height: 2rem;
+  padding-right: 0.5rem;
+}
+.container main .products_section {
+  background-color: var(--color-secondary);
+  padding: 4.5rem;
+}
+.container main .products_section div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2.625rem;
+}
+.container main .products_section div h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.container main .products_section div h3 {
+  font-size: 1.5625rem;
+  color: var(--color-subtitle);
+}
+.container main .products_section ul {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.container main .products_section ul li {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 18.75rem;
+  height: 27.25rem;
+  border: 0.1875rem solid var(--button-primary);
+  border-radius: 0.875rem;
+  text-align: center;
+  gap: 1.25rem;
+}
+.container main .products_section ul li p {
+  color: var(--color-subtitle);
+}
+.container main .products_section ul li button {
+  align-self: center;
+  width: 9.375rem;
+  height: 2.3125rem;
+  border: none;
+  border-radius: 0.3125rem;
+  background-color: var(--button-primary);
+  color: var(--color-primary);
+}
+.container main .products_section ul li button:hover {
+  background-color: var(--button-primary-hover);
+}
+.container main .review_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.6rem;
+}
+.container main .review_section .review_section_title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  min-width: 21.875rem;
+}
+.container main .review_section .review_section_title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-title);
+}
+.container main .review_section .review_section_title h3 {
+  font-size: 1.5625rem;
+  color: var(--color-subtitle);
+}
+.container main .review_section ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+.container main .review_section ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 18.75rem;
+  height: 16.75rem;
+  border: 0.1875rem solid #9CA3AF;
+  border-radius: 0.625rem;
+  padding: 1.875rem;
+}
+.container main .review_section ul li .review_stars {
+  width: 7.5rem;
+  height: 1.5rem;
+}
+.container main .review_section ul li p {
+  color: var(--color-subtitle);
+}
+.container main .review_section ul li .review_user {
+  display: flex;
+}
+.container main .review_section ul li .review_user img {
+  margin-right: 0.625rem;
+}
+.container main .review_section ul li .review_user div .review_username {
+  color: #09090B;
+}
+.container main .review_section ul li .review_user div .review_user_status {
+  color: var(--color-subtitle);
+}
+.container main .section_join {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--color-secondary);
+  padding: 4rem 1.625rem;
+}
+.container main .section_join h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.container main .section_join div {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.container main .section_join div .join {
+  align-self: center;
+  width: 11.625rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  color: var(--color-primary);
+  background-color: var(--button-primary);
+}
+.container main .section_join div .join:hover {
+  background-color: var(--button-primary-hover);
+}
+.container main .section_join div .more_info {
+  width: 8.5rem;
+  height: 3rem;
+  border: 0.0625rem solid var(--button-primary);
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  color: var(--button-primary);
+  background-color: var(--color-primary);
+}
+.container main .section_join div .more_info:hover {
+  background-color: var(--color-secondary);
+}
+.container footer {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-subtitle);
+  background-color: var(--color-title);
+  padding: 32px;
+}
+.container footer .footer_links {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+.container footer .footer_links .footer_titles {
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+.container footer .footer_links .logo_div {
+  max-width: 229px;
+}
+.container footer .footer_links .logo_div img {
+  margin-bottom: 12px;
+}
+.container footer .footer_links .footer_texts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container footer .footer_links .contact_info {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+.container footer .copyright {
+  align-self: center;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-subtitle);
+  width: 98%;
+}
+
+@media (max-width: 820px) {
+  header {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: normal !important;
+    padding: 1rem !important;
+    height: 200px;
+    padding-bottom: 0px;
+  }
+  header img {
+    max-width: 50%;
+    max-height: 59.008px;
+  }
+  header .links {
+    display: flex;
+    padding-bottom: 0px !important;
+  }
+  header .links nav {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  header .links nav p {
+    font-size: 18px;
+  }
+  header .links .btn {
+    display: flex;
+    padding-bottom: 0px !important;
+  }
+  header .links .btn button {
+    align-self: self-end !important;
+  }
+  main {
+    margin-top: 2rem;
+  }
+  main .presentation_section {
+    padding: 0px !important;
+  }
+  main .presentation_section .presentation_div h1 {
+    font-size: 2.5rem !important;
+  }
+  main .presentation_section .presentation_buttons {
+    max-width: 25rem !important;
+  }
+  main .presentation_section .presentation_buttons .donate_btn, main .presentation_section .presentation_buttons .adquire_btn {
+    padding-left: 1.6rem;
+  }
+  main .presentation_section .presentation_buttons .adquire_btn {
+    margin-left: 0 auto;
+  }
+  main .presentation_section img {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  main .howtouse_section {
+    padding: 1rem !important;
+  }
+  main .products_section {
+    padding: 1rem !important;
+    text-align: center;
+  }
+  main .section_join div {
+    display: flex;
+    gap: 8px;
+  }
+  footer .footer_links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */
