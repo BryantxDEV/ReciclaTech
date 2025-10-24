@@ -1,0 +1,213 @@
+.container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        min-height: 3.75rem;
+        width: 90%;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid #B4AEAE;
+        gap: 1rem;
+        padding: 2rem;
+
+        img {
+            max-width: 15.313rem;
+            width: 50%;
+            max-height: 2.688rem;
+            margin-right: auto;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            white-space: nowrap;
+            max-height: 37.5rem;
+            gap: 1.25rem;
+
+            nav {
+                display: flex;
+                align-items: center;
+                gap: 2.0625rem;
+                margin-right: auto;
+
+                p:hover {
+                    color: var(--button-primary);
+                }
+            }
+
+            .btn {
+                margin-left: auto;
+
+                button {
+                    align-self: center;
+                    width: 8.5rem;
+                    height: 3rem;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    color: var(--color-primary);
+                    background-color: var(--button-primary);
+                }
+
+                button:hover {
+                    background-color: var(--button-primary-hover);
+                }
+            }
+        }
+
+
+    }
+
+    main {
+        .presentation_section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        min-height: 3.75rem;
+        width: 90%;
+        padding-bottom: 0.75rem;
+        gap: 1rem;
+        padding: 2rem;
+
+            .presentation_div {
+                h1 {
+                    font-size: 3.75rem;
+                    font-weight: 700;
+                }
+
+                .presentation_buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 22.5rem;
+                    margin-top: 2.5rem;
+
+                    .donate_btn {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        height: 3.5rem;
+                        width: 10rem;
+                        border: none;
+                        border-radius: 5px;
+                        background-color: var(--button-primary);
+                        color: var(--color-primary);
+                    }
+
+                    .donate_btn:hover {
+                        background-color: var(--button-primary-hover);
+                    }
+
+                    .adquire_btn {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        height: 3.5rem;
+                        width: 10rem;
+                        border: 1px solid var(--button-secondary);
+                        border-radius: 5px;
+                        color: var(--button-secondary);
+                        background-color: var(--color-primary);
+                    }
+
+                    .adquire_btn:hover {
+                        background-color: var(--color-secondary);
+                    }
+                }
+            }
+        }
+
+        .data_section {
+            background-color: var(--color-secondary);
+            height: 9.8rem;
+
+            .data_list {
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                padding-top: 2.3rem;
+                
+                li {
+                    h2 {
+                        color: var(--button-primary);
+                        font-weight: 700;
+                        margin-bottom: 0.8rem;
+                    }
+
+                    p {
+                        color: var(--color-subtitle);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 820px) {
+    header {
+        flex-direction: column;
+        align-items: stretch;
+
+        img {
+            max-width: 20.313rem;
+            max-height: 3.688rem;
+        }
+
+        .links {
+            width: 90%;
+            position: relative;
+            margin: 0 auto;
+            margin-left: 0px;
+
+            .nav {
+                justify-content: space-between;
+                margin-left: 0;
+                margin-right: 0;
+                gap: 5rem;
+                width: 100%;
+            }
+        }
+    }
+
+    main {
+        margin-top: 2rem;
+
+        .presentation_section {
+            padding: 0px !important;
+
+            .presentation_div {
+                h1{
+                    font-size: 2.5rem !important;
+                }
+            }
+
+            .presentation_buttons {
+                max-width: 25rem !important;
+
+                .donate_btn, .adquire_btn{
+                    padding-left: 1.6rem;
+                }
+
+                .adquire_btn {
+                    margin-left: 0 auto;
+                }
+            }
+
+            img {
+                text-align: center;
+                position: relative;
+                margin: 0 auto;
+                max-width: 90%;
+            }
+        }
+    }
+}
